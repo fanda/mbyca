@@ -1,0 +1,25 @@
+Music creation by celullar automata (mbyca)
+
+By Pavel Novotny, 2011, BSD licence (read LICENCE)
+
+_______
+INSTALL
+
+Requirement: Qt 4.6
+
+1. Go to the stk folder, read the INSTALL and compile STK library.
+2. Go to the document root folder and `make`
+   (if needed, remove Makefile and create new by `qmake -makefile`)
+
+_______
+RUNNING
+
+If sound device is busy, no sound output will be produced.
+Free any sound devices before running program.
+
+_____________
+DOCUMENTATION
+
+1. run `doxygen Doxyfile`
+2. Go to the doc/html folder and open index.html file
+
